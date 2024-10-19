@@ -153,6 +153,11 @@ p {
     #textosMenu:hover::after {
         transform: none; 
     }
+
+    #cardAvaliacao{
+        height: 25rem;
+        border-radius: 30px;
+    }
 }
 
 @media (max-width: 426px) {
@@ -183,6 +188,10 @@ p {
 
     #logo {
         display: none;
+    }
+
+    #cardAvaliacao{
+        margin-top: 1rem;
     }
 }
 
