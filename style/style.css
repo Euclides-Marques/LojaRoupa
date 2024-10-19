@@ -123,6 +123,11 @@ p {
     #logo {
         display: none;
     }
+
+    #textosMenu:hover,
+    #textosMenu:active {
+        color: black; 
+    }
 }
 
 @media (max-width: 768px) {
@@ -142,6 +147,11 @@ p {
 
     #textosMenu::after {
         display: none; 
+    }
+
+    #textosMenu:hover,
+    #textosMenu:active {
+        color: black; 
     }
 
     #textosMenu:hover::after {
@@ -164,6 +174,11 @@ p {
 
     #textosMenu:hover::after {
         transform: none; 
+    }
+
+    #textosMenu:hover,
+    #textosMenu:active {
+        color: black; 
     }
 
     #bag {
@@ -192,6 +207,11 @@ p {
         transform: none; 
     }
 
+    #textosMenu:hover,
+    #textosMenu:active {
+        color: black; 
+    }
+
     #bag {
         font-size: x-small;
     }
@@ -216,6 +236,11 @@ p {
 
     #textosMenu:hover::after {
         transform: none; 
+    }
+
+    #textosMenu:hover,
+    #textosMenu:active {
+        color: black; 
     }
 
     #bag {
