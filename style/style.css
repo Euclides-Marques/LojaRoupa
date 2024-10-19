@@ -85,6 +85,37 @@ p {
     margin: 20px;
 }
 
+#sobrenos{
+    margin-top: 20px;
+}
+
+#textoSobreNos{
+    margin-top: 50px;
+}
+
+#imgSobreNos{
+    border-radius: 40px;
+}
+
+#cardAvaliacao{
+    width: 18rem;
+    margin-top: 70px;
+    height: 80%;
+}
+
+.stars {
+    font-size: 1.5rem; 
+    color: #FFD700; 
+}
+
+.star {
+    cursor: pointer; 
+}
+
+#nomeClientes{
+    font-weight: bold;
+}
+
 @media (max-width: 992px) {
     #logo {
         display: none;
