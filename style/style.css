@@ -115,6 +115,30 @@ p {
     font-weight: bold;
 }
 
+#iconsTexts{
+    margin-top: 3rem;
+}
+
+#textMidiaSocial{
+    color: #000000;
+}
+
+#email {
+    color: #575656; 
+}
+
+#whatsapp {
+    color: #25D366; 
+}
+
+#telefone{
+    color: #007bff;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
 @media (max-width: 992px) {
     #logo {
         display: none;
