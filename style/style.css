@@ -94,13 +94,16 @@ p {
 }
 
 #imgSobreNos{
-    border-radius: 40px;
+    border-radius: 30px;
+}
+
+#card{
+    margin-top: 5rem;
 }
 
 #cardAvaliacao{
-    width: 18rem;
-    margin-top: 70px;
-    height: 80%;
+    height: 20rem;
+    border-radius: 30px;
 }
 
 .stars {
