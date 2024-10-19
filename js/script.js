@@ -12,3 +12,4 @@ function updateLogoVisibility() {
 window.onload = updateLogoVisibility;
 
 window.onresize = updateLogoVisibility;
+
