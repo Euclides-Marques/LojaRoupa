@@ -3,8 +3,15 @@ body {
 }
 
 #logo {
+    display: block;
     width: 80px; 
     height: auto;
+}
+
+#Iconlogo {
+    position: absolute; 
+    left: 0; 
+    display: none; 
 }
 
 .navbar {
@@ -24,6 +31,10 @@ body {
 
 .nav-item {
     margin: 0 50px; 
+}
+
+.navbar-brand {
+    position: relative; 
 }
 
 #textosMenu {
@@ -67,13 +78,11 @@ body {
     }
 
     .nav-item {
-        margin: 0 10px;
+        margin: 0 40px;
     }
 
     #logo {
-        content: url('/img/logo.png'); 
-        width: 40px; 
-        height: auto;
+        display: none;
     }
 
     #textosMenu::after {
@@ -105,11 +114,15 @@ body {
     #bag {
         font-size: medium;
     }
+
+    #logo {
+        display: none;
+    }
 }
 
 @media (max-width: 376px) {
     .nav-item {
-        margin: 0 2px;
+        margin: 0 10px;
     }
 
     #textosMenu {
@@ -126,5 +139,35 @@ body {
 
     #bag {
         font-size: x-small;
+    }
+
+    #logo {
+        display: none;
+    }
+}
+
+@media (max-width: 321px) {
+    .nav-item {
+        margin: 0 5px;
+    }
+
+    #textosMenu {
+        font-size: xx-small;
+    }
+
+    #textosMenu::after {
+        display: none; 
+    }
+
+    #textosMenu:hover::after {
+        transform: none; 
+    }
+
+    #bag {
+        font-size: x-small;
+    }
+
+    #logo {
+        display: none;
     }
 }
